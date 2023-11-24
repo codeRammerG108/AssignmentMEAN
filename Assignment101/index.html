@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="./resources/favicon.ico"> 
+    <style>
+        body {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+    <title>Assignment101</title>
+</head>
+<body onblur="windowSwitched()" onfocus="tabActive()" >
+    <p id="para">Enter your name:</p>
+    <input id="input" onkeyup="changeText(event)"> 
+    <p>So how you doing, <span id="output"></span></p>
+</body>
+<script src="./index.js"></script>
+</html>
